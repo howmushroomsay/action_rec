@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>834</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>711</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">alternate-background-color: rgba(56, 97, 139,  105);
+background-color: rgba(5, 24, 63, 125);
+pane{border: -1px;top:-2px;left: 1px;}</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>true</bool>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::NoPen</enum>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>179</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>参考动作</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="background">
+     <color alpha="125">
+      <red>23</red>
+      <green>56</green>
+      <blue>88</blue>
+     </color>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="SolidPattern">
+      <color alpha="255">
+       <red>82</red>
+       <green>154</green>
+       <blue>202</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>学员动作</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="SolidPattern">
+      <color alpha="255">
+       <red>82</red>
+       <green>154</green>
+       <blue>202</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>570</y>
+     <width>161</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid rgba(14, 101, 178, 200);
+color: rgba(255, 255, 255, 150);</string>
+   </property>
+   <property name="text">
+    <string>最终得分：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>570</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid rgba(14, 101, 178, 200);
+color: rgba(255, 255, 255, 150);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>861</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../res.qrc">:/background/figs/icon/弹窗BG1.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>0</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>成绩信息</string>
+   </property>
+  </widget>
+  <zorder>label_background</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label_title</zorder>
+ </widget>
+ <resources>
+  <include location="../res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

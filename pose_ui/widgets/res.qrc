@@ -1,0 +1,51 @@
+<RCC>
+  <qresource prefix="background">
+    <file>figs/background/头部5.png</file>
+    <file>figs/icon/弹窗BG1.png</file>
+    <file>figs/icon/重新加载.png</file>
+    <file>figs/other_resources/mian_log.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>figs/icon/menu_play.png</file>
+    <file>figs/icon/menu_stop.png</file>
+    <file>figs/icon/menu_2D_eye.png</file>
+    <file>figs/icon/menu_all_show.png</file>
+    <file>figs/icon/menu_exit.png</file>
+    <file>figs/icon/menu_left.png</file>
+    <file>figs/icon/menu_right.png</file>
+    <file>figs/icon/menu_show.png</file>
+    <file>figs/icon/menu_stop.png</file>
+    <file>figs/icon/设置.png</file>
+    <file>figs/icon/log_user.png</file>
+    <file>figs/icon/118评估.png</file>
+    <file>figs/icon/跑步.png</file>
+    <file>figs/icon/分析.png</file>
+    <file>figs/icon/24gl-pause.png</file>
+    <file>figs/icon/24gl-play.png</file>
+    <file>figs/icon/返回.png</file>
+    <file>figs/icon/登入.png</file>
+    <file>figs/icon/右箭头 (1).png</file>
+    <file>figs/icon/左箭头 (1).png</file>
+    <file>figs/icon/返回.png</file>
+    <file>figs/icon/右箭头.png</file>
+    <file>figs/icon/左箭头.png</file>
+    <file>figs/icon/close (2).png</file>
+    <file>figs/icon/Maximize-1 (2).png</file>
+    <file>figs/icon/Minimize-1 (2).png</file>
+    <file>figs/icon/对抗训练.png</file>
+    <file>figs/icon/跟随训练.png</file>
+    <file>figs/icon/close (1).png</file>
+    <file>figs/icon/Maximize-1 (1).png</file>
+    <file>figs/icon/Minimize-1 (1).png</file>
+    <file>figs/icon/close.png</file>
+    <file>figs/icon/Maximize-1.png</file>
+    <file>figs/icon/Minimize-1.png</file>
+    <file>figs/icon/康复训练.png</file>
+    <file>figs/icon/问题反馈.png</file>
+    <file>figs/icon/user110.png</file>
+    <file>figs/icon/退出.png</file>
+    <file>figs/icon/相机.png</file>
+    <file>figs/icon/user.png</file>
+    <file>figs/icon/用户信息.png</file>
+  </qresource>
+</RCC>
